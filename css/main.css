@@ -140,6 +140,7 @@ a:hover{
 }
 .button-b1{
     background-color: #01D486;
+    border-radius: 50px;
     border: none;
     color: #FFFFFF;
     text-align: center;
@@ -148,6 +149,9 @@ a:hover{
     transition: all 0.5s;
     cursor: pointer;
     margin: 5px;
+}
+button:focus{
+    outline: none;
 }
 
 .button-b1 span.spa {
@@ -174,4 +178,15 @@ a:hover{
 .button-b1:hover span.spa:after {
     opacity: 1;
     right: 0;
+}
+.feature_section{
+    margin: 150px 0px 0px 0px;
+}
+.bg_gray{
+    background-color: #F5F5F5;
+}
+.border-green{
+    width: 50px;
+    border: 5px solid #01D486;
+    background-color: #01D486 !important;
 }
