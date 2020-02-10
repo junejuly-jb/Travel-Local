@@ -63,6 +63,11 @@
 .scrolled .anchor{
     filter: invert(0%) sepia(54%) saturate(7500%) hue-rotate(79deg) brightness(86%) contrast(107%);
 }
+
+.scrolled .navbar-toggler-icon{
+    background-image: url("../media/list-black.svg");
+    fill: black;
+}
 .button-b{
     background-color: transparent;
     border: 2px solid white;
