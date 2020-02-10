@@ -1,4 +1,4 @@
-@media screen and (min-width: 320px) and (max-width: 426px){
+@media screen and (min-width: 20px) and (max-width: 426px){
     .div-info{
         display: none;
     }
@@ -68,6 +68,7 @@
     }
     .card{
         margin-top: 50px !important;
+        width: 17rem !important;
     }
 }
 
