@@ -190,3 +190,19 @@ button:focus{
     border: 5px solid #01D486;
     background-color: #01D486 !important;
 }
+.reviews{
+    position: relative;
+    top: 150px;
+}
+.avatar_name{
+    font-size: 30px;
+}
+.wrapper{
+    margin: 50px 0px;
+}
+
+.item img{
+    max-width: 120px;
+    align-items: center !important;
+    margin: auto;
+}
