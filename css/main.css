@@ -126,6 +126,52 @@
     border: none !important;
     box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.1);
 }
-.color-green{
+.bg-green{
+    background-color: #01D486 !important;
+}
+.text-green{
     color: #01D486 !important;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.button-b1{
+    background-color: #01D486;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    padding: 15px 40px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button-b1 span.spa {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button-b1 span.spa:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button-b1:hover span.spa {
+    padding-right: 25px;
+}
+
+.button-b1:hover span.spa:after {
+    opacity: 1;
+    right: 0;
 }
