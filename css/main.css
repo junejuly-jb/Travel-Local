@@ -199,10 +199,12 @@ button:focus{
 }
 .wrapper{
     margin: 50px 0px;
+    transition: 0.5s;
 }
 
 .item img{
     max-width: 120px;
     align-items: center !important;
     margin: auto;
+    
 }

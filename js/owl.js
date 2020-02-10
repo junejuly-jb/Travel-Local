@@ -3,9 +3,11 @@ var startItem = $('.item').length - 1;
 $(".owl-carousel").owlCarousel({
   dots: true,
   loop: true,
-  nav: false,
+  nav: true,
   autoplay: true,
-  autoplayTimeout: 2000,
+  animateOut: 'slideOutLeft',
+  animateIn: 'slideInRight',
+  autoplayTimeout: 3000,
   startPosition: startItem,
   responsive: {
     0: {
