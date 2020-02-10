@@ -122,3 +122,10 @@
     position: relative;
     top: 100px;
 }
+.card{
+    border: none !important;
+    box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.1);
+}
+.color-green{
+    color: #01D486 !important;
+}
