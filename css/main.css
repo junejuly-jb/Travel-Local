@@ -1,0 +1,115 @@
+*{
+    font-family: TT Norms;
+    transition: 0.5s;
+}
+.parallax {
+    background-image: url("../media/cover.svg");
+    height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav-link{
+    color: white;
+}
+.parallax-content{
+    padding-top: 200px;
+}
+.search-box{
+    margin: auto;
+    border-radius: 40px;
+    background: white;
+    width: 600px;
+    height: 50px;
+    padding: 12px 20px;
+    opacity: 0.5;
+}
+.search-btn{
+    font-size: 25px;
+    float: right;
+    justify-content: center;
+    align-items: center;
+}
+.input-search{
+    opacity: 1;
+    outline: none;
+    border: none;
+    width: 320px;
+}
+.title{
+    font-size: 90px;
+    font-weight: bold;
+   color: white;
+}
+
+.container-title{
+    padding-top: 40px;
+    text-align: right;
+}
+.subtitle{
+    color: white;
+    font-size: 20px;
+}
+.scrolled{
+    background-color: white;
+    color: black !important;
+    transition: 0.5s;
+    box-shadow: 5px 0px 20px rgba(0, 0, 0, 0.3);
+}
+.scrolled .navbar-nav .nav-item .nav-link {
+    color: #212529 !important;
+}
+.scrolled .anchor{
+    filter: invert(0%) sepia(54%) saturate(7500%) hue-rotate(79deg) brightness(86%) contrast(107%);
+}
+.button-b{
+    background-color: transparent;
+    border: 2px solid white;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    padding: 15px 40px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button-b span.spa {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button-b span.spa:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button-b:hover span.spa {
+    padding-right: 25px;
+}
+
+.button-b:hover span.spa:after {
+    opacity: 1;
+    right: 0;
+}
+
+.no-margin{
+    margin: 0;
+}
+.no-padding{
+    padding: 0;
+}
+.side-border{
+    border-left: 5px solid #01D486;
+}
+.default-text{
+    color: #6A6A6A;
+}
