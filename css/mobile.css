@@ -66,12 +66,18 @@
         background-color: white;
         color: transparent;
     }
+    .card{
+        margin-top: 50px !important;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1025px){
     .upper-list{
         padding-left: 10px !important;
         padding-right: 10px !important;
+    }
+    .card{
+        margin-top: 50px !important;
     }
 }
 
