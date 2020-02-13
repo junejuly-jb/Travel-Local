@@ -1,13 +1,14 @@
 var startItem = $('.item').length - 1;
 
 $(".owl-carousel").owlCarousel({
-  dots: true,
+  dots: false,
   loop: true,
-  nav: true,
+  nav: false,
+  navText: ["<img src='../media/previous.svg' width='40'>","<img src='../media/next.svg' width='40'>"],
   autoplay: true,
   animateOut: 'slideOutLeft',
   animateIn: 'slideInRight',
-  autoplayTimeout: 3000,
+  autoplayTimeout: 5000,
   startPosition: startItem,
   responsive: {
     0: {
