@@ -4,7 +4,7 @@
 }
 .parallax {
     background-image: url("../media/cover.svg");
-    height: 800px;
+    height: 950px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;

@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.css">
     <link rel="stylesheet" href="css/animate.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -61,11 +62,11 @@
         </div>
     </div>
     <div class="container default-text mt-5">
-        <div class="pl-3 side-border">
+        <div class="pl-3 side-border" data-aos="fade-up">
             <h3 class="no-margin font-weight-bold">About Us</h3>
             <span>Explore varieties of places in the Philippines</span>
         </div>
-        <div class="row mt-4">
+        <div class="row mt-4" data-aos="fade-up">
             <div class="col-md">
                 <p class="text-justify px-3">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -92,13 +93,13 @@
             </div>
         </div>
         <section class="choose_your_destination">
-            <div class="pl-3 side-border">
+            <div class="pl-3 side-border" data-aos="fade-up">
                 <h3 class="no-margin font-weight-bold">Choose your destination</h3>
                 <span>Explore varieties of places in the Philippines</span>
             </div>
             <div class="row mt-4">
                 <div class="col-lg">
-                    <div class="card m-auto mt-5" style="width: 19rem;">
+                    <div class="card m-auto mt-5" style="width: 19rem;" data-aos="flip-left" data-aos-duration="3000">
                         <img class="card-img-top img-fluid" src="media/coron.svg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Coron Palawan</h5>
@@ -113,7 +114,7 @@
                     </div>
                 </div>
                 <div class="col-lg">
-                    <div class="card m-auto mt-5" style="width: 19rem;">
+                    <div class="card m-auto mt-5" style="width: 19rem;" data-aos="flip-left" data-aos-duration="3000">
                         <img class="card-img-top" src="media/chocolatehills.svg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Chocolate Hills</h5>
@@ -128,7 +129,7 @@
                     </div>
                 </div>
                 <div class="col-lg">
-                    <div class="card m-auto" style="width: 19rem;">
+                    <div class="card m-auto" style="width: 19rem;" data-aos="flip-left" data-aos-duration="3000">
                         <img class="card-img-top" src="media/kawasan.svg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Kawasan Falls</h5>
@@ -145,7 +146,7 @@
             </div>
             <div class="row mt-4">
                 <div class="col-lg">
-                    <div class="card m-auto mt-4" style="width: 19rem;">
+                    <div class="card m-auto mt-4" style="width: 19rem;" data-aos="flip-right" data-aos-duration="3000">
                         <img class="card-img-top" src="media/boracay.svg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Boracay Island</h5>
@@ -160,7 +161,7 @@
                     </div>
                 </div>
                 <div class="col-lg">
-                    <div class="card m-auto" style="width: 19rem;">
+                    <div class="card m-auto" style="width: 19rem;" data-aos="flip-right" data-aos-duration="3000">
                         <img class="card-img-top" src="media/enchanted.svg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Enchanted River</h5>
@@ -175,7 +176,7 @@
                     </div>
                 </div>
                 <div class="col-lg">
-                    <div class="card m-auto" style="width: 19rem;">
+                    <div class="card m-auto" style="width: 19rem;" data-aos="flip-right" data-aos-duration="3000">
                         <img class="card-img-top" src="media/underground.svg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Underground River</h5>
@@ -264,7 +265,7 @@
         </div>
 
         <div class="container">
-            
+
         </div>
     </section>
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
@@ -278,10 +279,10 @@
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/scroller.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        $("#owl-example").owlCarousel({
-            nav: true,
-            navText: ["<img src='media/previous.svg'>", "<img src='media/next.svg'>"]
+        AOS.init({
+            duration: 1000
         });
     </script>
 </body>
